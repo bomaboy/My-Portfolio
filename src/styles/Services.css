@@ -1,0 +1,7 @@
+.service:hover .service-p {
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}

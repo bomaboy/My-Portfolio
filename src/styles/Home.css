@@ -1,0 +1,90 @@
+.image1 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(../images/bg2.webp);
+  background-size: cover;
+}
+
+.image2 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(../images/bg3.jpg);
+  background-size: cover;
+}
+
+.image3 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(../images/bg4.webp);
+
+  background-size: cover;
+}
+
+.image4 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(../images/bg5.jpeg);
+  background-size: cover;
+}
+
+.drop {
+  animation: drop 3s linear forwards reverse;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(250px);
+  }
+  80% {
+    transform: translateY(220px);
+  }
+  90% {
+    transform: translateY(250px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  @keyframes drop {
+    0% {
+      transform: translateY(150px);
+    }
+    80% {
+      transform: translateY(120px);
+    }
+    90% {
+      transform: translateY(150px);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
+  }
+}
+
+.image5:hover p {
+  display: block;
+}
+
+.span {
+  width: 40px;
+  height: 10px;
+  border-bottom: 2px solid blue;
+}

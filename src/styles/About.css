@@ -1,0 +1,97 @@
+.image1 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(../images/bg2.webp);
+  background-size: cover;
+}
+
+.image2 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(../images/bg3.jpg);
+  background-size: cover;
+}
+
+.image3 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(../images/bg4.webp);
+
+  background-size: cover;
+}
+
+.image4 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(../images/bg5.jpeg);
+  background-size: cover;
+}
+
+/* .image5 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(../images/hands-up.webp);
+
+  background-size: cover;
+  transition: 50s;
+} */
+
+.image5:hover p {
+  display: block;
+}
+
+.span {
+  width: 40px;
+  height: 10px;
+  border-bottom: 2px solid blue;
+}
+
+.icon-div1:hover {
+  background-color: blue;
+  color: white;
+}
+
+.icon-div1:hover .icon1 {
+  background-color: black;
+  color: white;
+}
+
+.icon-div2:hover {
+  background-color: blue;
+  color: white;
+}
+
+.icon-div2:hover .icon2 {
+  background-color: black;
+  color: white;
+}
+
+.icon-div3:hover {
+  background-color: blue;
+  color: white;
+}
+
+.icon-div3:hover .icon3 {
+  background-color: black;
+  color: wheat;
+}
