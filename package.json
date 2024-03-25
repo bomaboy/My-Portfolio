@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "16.x"
+    "node": "v21.2.0"
   },
   "name": "my-project",
   "private": true,
