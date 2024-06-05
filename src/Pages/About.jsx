@@ -22,7 +22,7 @@ function About() {
     <>
       <main
         id="Main"
-        className="w-screen h-[500vh] md:h-[320vh] z-10 font-serif"
+        className="w-screen h-[500vh] md:h-[320vh] z-10 font-serif bg-[whitesmoke]"
       >
         <section className=" md:h-[65vh] w-screen">
           <div className="z-20 absolute md:mt-[40vh]  mt-[30vh] md:ml-[40vw] sm:ml-[35vw] ml-[27vw] text-[white]  border-none outline-none flex items-center justify-center flex-col">
@@ -53,7 +53,7 @@ function About() {
             </figure>
           </Carousel>
         </section>
-        <section className="w-[100vw] md:h-[100vh] h-[150vh] flex items-center justify-center">
+        <section className="w-[100vw] md:h-[100vh] h-[150vh] flex items-center justify-center ">
           <div className="md:w-[85vw] w-[75vw] md:h-[95vh] h-[145vh] flex items-center justify-between md:flex-row flex-col ">
             <div className="md:w-[40vw] w-[95vw]  h-[70vh] flex items-start justify-between flex-col text-[#2a1313]">
               <p className="font-extrabold md:text-[2.1vw] text-[5vw]">
@@ -92,11 +92,11 @@ function About() {
             </a>
           </div>
         </section>
-        <section className="w-[100vw] md:h-[100vh] h-[230vh] flex items-center justify-center">
+        <section className="w-[100vw] md:h-[100vh] h-[230vh] flex items-center justify-center ">
           <div className="w-[80vw] md:h-[90vh] h-[225vh] flex items-center justify-around flex-col">
             <p className="text-[35px] font-medium">Why Choose Us</p>
             <div className="w-[80vw] md:h-[60vh] h-[190vh] flex items-center justify-between font-medium md:flex-row flex-col ">
-              <div className="icon-div1 md:w-[25vw] w-[80vw] h-[50vh] duration-500 rounded-2xl  flex items-end justify-center text-center shadow-md pb-5 bg-[whitesmoke] ">
+              <div className="icon-div1 md:w-[25vw] w-[80vw] h-[50vh] duration-500 rounded-2xl  flex items-end justify-center text-center shadow-md pb-5 bg-white ">
                 <div className=" icon1 w-[80px] h-[80px] rounded-[50%] bg-[blue] text-white flex items-center justify-center  absolute mb-[40vh] text-[40px] ">
                   <CgWebsite />
                 </div>
@@ -108,20 +108,20 @@ function About() {
                   </h1>
                 </div>
               </div>
-              <div className=" icon-div2 md:w-[25vw] w-[80vw] h-[50vh] duration-500 rounded-2xl flex items-end justify-center text-center shadow-md pb-5 bg-[whitesmoke] ">
+              <div className=" icon-div2 md:w-[25vw] w-[80vw] h-[50vh] duration-500 rounded-2xl flex items-end justify-center text-center shadow-md pb-5 bg-white ">
                 <div className="icon2 w-[80px] h-[80px] rounded-[50%] bg-[blue] text-white flex items-center justify-center  absolute mb-[40vh] text-[40px] ">
                   <FcIdea />
                 </div>
                 <div className="md:w-[23vw] w-[75vw] h-[30vh] flex items-center justify-between flex-col">
                   <p className="font-bold text-[18px]">Aboundant Eperience</p>
                   <h1>
-                    i have be into this business of websites building for the
+                    i have been into this business of websites building for the
                     past two years now, i have gained alot of experience and
                     have seen alot of challengies and scalled through
                   </h1>
                 </div>
               </div>
-              <div className="icon-div3 md:w-[25vw] w-[80vw] h-[50vh] duration-500 rounded-2xl  flex items-end justify-center text-center shadow-md pb-5 bg-[whitesmoke] ">
+              <div className="icon-div3 md:w-[25vw] w-[80vw] h-[50vh] duration-500 rounded-2xl  flex items-end justify-center text-center shadow-md pb-5 bg-white ">
                 <div className="icon3 w-[80px] h-[80px] rounded-[50%] bg-[blue] text-white flex items-center justify-center  absolute mb-[40vh] text-[40px] ">
                   <SiApplearcade />
                 </div>
@@ -129,7 +129,7 @@ function About() {
                   <p className="font-bold text-[18px]">Modern Equipments</p>
                   <h1>
                     i use modern frameworks like react.js, vite and tailwindcss
-                    just to mention a few, i alot use a very strong and reliable
+                    just to mention a few, i also use a very strong and reliable
                     laptop as you can see on the image above
                   </h1>
                 </div>
@@ -137,7 +137,7 @@ function About() {
             </div>
           </div>
         </section>
-        <section className="w-[100vw] h-[50vh] flex items-center justify-center">
+        <section className="w-[100vw] h-[50vh] flex items-center justify-center ">
           <div className="w-[95vw] h-[45vh] flex items-center justify-between flex-col ">
             <p className="font-bold text-[30px]">skills</p>
             <div className="w-[95vw] h-[40vh] flex items-center justify-between">

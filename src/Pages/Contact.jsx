@@ -11,7 +11,10 @@ import { ImWhatsapp } from "react-icons/im";
 function Contact() {
   return (
     <>
-      <main id="Main" className="w-[100%] md:h-[280vh] h-[350vh] font-serif">
+      <main
+        id="Main"
+        className="w-[100%] md:h-[280vh] h-[350vh] font-serif bg-[whitesmoke]"
+      >
         <section className=" md:h-[65vh] ">
           <div className="z-20 absolute md:mt-[40vh]  mt-[30vh] md:ml-[40vw] sm:ml-[35vw] ml-[27vw] text-[white]  border-none outline-none flex items-center justify-center flex-col">
             <h1 className="font-bold text-[35px]">Contact Us</h1>
@@ -85,26 +88,6 @@ function Contact() {
                     </a>
                   </div>
                 </div>
-                {/* <div className="md:w-[100px] w-[80vw] md:h-[24vh] h-[20vh] flex items-start justify-around flex-col ">
-                  <div className="md:w-[30vw] w-[80vw] flex md:items-start items-center justify-between flex-col">
-                    <p>Twitter</p>
-                    <a href="http://" className="font-medium">
-                      <FaXTwitter className="text-[20px] hover:text-[blue] duration-500" />
-                    </a>
-                  </div>
-                  <div className="md:w-[30vw] w-[80vw] flex md:items-start items-center justify-between flex-col">
-                    <p>Linkedin</p>
-                    <a href="http://" className="font-medium">
-                      <BsLinkedin className="text-[20px] hover:text-[blue] duration-500" />
-                    </a>
-                  </div>
-                  <div className="md:w-[30vw] w-[80vw] flex md:items-start items-center justify-between flex-col">
-                    <p>Medium</p>
-                    <a href="http://" className="font-medium">
-                      <FaMedium className="text-[20px] hover:text-[blue] duration-500" />
-                    </a>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div className="w-[85vw] md:h-[70vh] h-[110vh]">
@@ -118,7 +101,7 @@ function Contact() {
             </div>
           </div>
         </section>
-        <section className="w-[100vw] md:h-[100vh] h-[90vh] flex items-center justify-center bg-[whitesmoke]">
+        <section className="w-[100vw] md:h-[100vh] h-[90vh] flex items-center justify-center ">
           <form
             action="https://mail.google.com/mail/u/0/#inbox"
             className="md:w-[60vw] w-[95vw]  h-[80vh] shadow-md flex items-center justify-center bg-white"
