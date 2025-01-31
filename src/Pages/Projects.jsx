@@ -2,7 +2,7 @@ import "../styles/Projects.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { IoHomeOutline } from "react-icons/io5";
-import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io5";
 import { FaBook } from "react-icons/fa";
 import videoFile1 from "/images/Realistic_Water_Animation.mp4";
 import videoFile2 from "/images/Champions_League_Animation.mp4";
@@ -23,7 +23,7 @@ function Projects() {
             <h1 className="font-bold text-[35px]">Our Projects</h1>
             <div className="md:w-[10vw] w-[25vw] h-[5vh] flex items-center justify-between font-medium md:mr-0 mr-10">
               <a
-                href="/"
+                href=""
                 className="md:w-[6vw] w-[20vw] h-[5vh] flex items-center justify-between font-medium "
               >
                 <IoHomeOutline />
