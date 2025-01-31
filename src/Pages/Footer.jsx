@@ -1,5 +1,5 @@
 import "../styles/Footer.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { BsLinkedin } from "react-icons/bs";
 import { FaSquareFacebook, FaXTwitter } from "react-icons/fa6";
 import { FaMedium } from "react-icons/fa6";

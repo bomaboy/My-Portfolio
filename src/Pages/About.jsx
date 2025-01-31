@@ -8,14 +8,14 @@ import { FcIdea } from "react-icons/fc";
 import { SiApplearcade } from "react-icons/si";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
-import { ImHtmlFive } from "react-icons/im";
-import { SiCss3 } from "react-icons/si";
-import { TbBrandJavascript } from "react-icons/tb";
-import { SiTailwindcss } from "react-icons/si";
-import { VscGithubInverted } from "react-icons/vsc";
-import { SiReact } from "react-icons/si";
-import { HiPaintBrush } from "react-icons/hi2";
-import { FaFigma } from "react-icons/fa";
+// import { ImHtmlFive } from "react-icons/im";
+// import { SiCss3 } from "react-icons/si";
+// import { TbBrandJavascript } from "react-icons/tb";
+// import { SiTailwindcss } from "react-icons/si";
+// import { VscGithubInverted } from "react-icons/vsc";
+// import { SiReact } from "react-icons/si";
+// import { HiPaintBrush } from "react-icons/hi2";
+// import { FaFigma } from "react-icons/fa";
 
 function About() {
   return (
@@ -90,7 +90,9 @@ function About() {
             <a href="/">
               <div className="image5 md:w-[38vw] w-[95vw] h-[70vh] flex items-center justify-center font-extrabold md:text-white text-[blue] text-[30px]">
                 <div className="md:w-[38vw] w-[95vw] h-[70vh] md:hover:bg-[blue] absolute opacity-70 duration-500 md:mt-0 mt-[-3.5px]"></div>
-                <p className="hidden absolute text-center">Mr.Emmanuel Animations</p>
+                <p className="hidden absolute text-center">
+                  Mr.Emmanuel Animations
+                </p>
                 <img
                   src={image5}
                   alt="image5"
