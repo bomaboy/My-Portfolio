@@ -32,16 +32,16 @@ function Services() {
           <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
             <figure className="w-full">
               {/* <img src={Image2} alt="Image2" className="images h-[120vh]" /> */}
-              <div className="image1 h-[65vh] w-[100vw]"></div>
+              <div className="image6 h-[65vh]   w-[100vw]"></div>
             </figure>
             <figure className="w-full">
-              <div className="image2 h-[65vh] w-[100vw]"></div>
+              <div className="image7 h-[65vh]   w-[100vw]"></div>
             </figure>
             <figure className="w-full">
-              <div className="image3 h-[65vh] w-[100vw]"></div>
+              <div className="image8 h-[65vh]   w-[100vw]"></div>
             </figure>
             <figure className="w-full">
-              <div className="image4 h-[65vh] w-[100vw]"></div>
+              <div className="image9 h-[65vh]   w-[100vw]"></div>
             </figure>
           </Carousel>
         </section>{" "}
@@ -56,8 +56,8 @@ function Services() {
             <div className="w-[95vw] md:h-[75vh] h-[100vh] flex items-center justify-between md:flex-row flex-col">
               <div className="service shadow-lg md:w-[30vw] w-[95vw] h-[65vh] flex items-center justify-between flex-col md:mb-0 mb-10">
                 <div className="hover:bg-[blue] md:w-[30vw] w-[95vw] h-[50vh] absolute duration-500 opacity-60"></div>
-                <p className="service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
-                  BomaTech
+                <p className=" text-center service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
+                  Mr.Emmanuel <br /> Animations{" "}
                 </p>
                 <div className="md:w-[30vw] w-[95vw] h-[50vh]">
                   <img
@@ -68,17 +68,18 @@ function Services() {
                 </div>
                 <div className="md:w-[30vw] w-[95vw] h-[15vh] bg-[whitesmoke] flex items-center justify-between flex-col">
                   <div className="md:w-[25vw] w-[90vw] h-[8vh] absolute mt-[-7vh] bg-[whitesmoke] flex items-center justify-center font-bold text-[blue]">
-                    WED DEV & DESIGN
+                    3D Modeling
                   </div>
                   <div className="font-medium text-[blue]">
-                    Best Way to Build Websites
+                    Ability to create characters,
+                    <br /> environments, props, and assets.
                   </div>
                 </div>
               </div>
               <div className="service shadow-lg md:w-[30vw] w-[95vw] h-[65vh] flex items-center justify-between flex-col md:mb-0 mb-10">
                 <div className="hover:bg-[blue] md:w-[30vw] w-[95vw] h-[50vh] absolute duration-500 opacity-60"></div>
-                <p className="service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
-                  BomaTech
+                <p className="text-center service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
+                  Mr.Emmanuel <br /> Animations
                 </p>
                 <div className="md:w-[30vw] w-[95vw] h-[50vh]">
                   <img
@@ -89,17 +90,18 @@ function Services() {
                 </div>
                 <div className="md:w-[30vw] w-[95vw] h-[15vh] bg-[whitesmoke] flex items-center justify-between flex-col">
                   <div className="md:w-[25vw] w-[90vw] h-[8vh] absolute mt-[-8vh] bg-[whitesmoke] flex items-center justify-center font-bold text-[blue]">
-                    DIGITAL & TRAD'L ART
+                    Rigging & Skinning{" "}
                   </div>
                   <div className="font-medium text-[blue]">
-                    Best Way to Build Websites
+                    Setting up skeletal rigs for <br /> characters, objects, and
+                    creatures.
                   </div>
                 </div>
               </div>
               <div className="service shadow-lg md:w-[30vw] w-[95vw] h-[65vh] flex items-center justify-between flex-col">
                 <div className="hover:bg-[blue] md:w-[30vw] w-[95vw] h-[50vh] absolute duration-500 opacity-60"></div>
-                <p className="service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
-                  BomaTech
+                <p className=" text-center service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
+                  Mr.Emmanuel <br /> Animations{" "}
                 </p>
                 <div className="md:w-[30vw] w-[95vw] h-[50vh]">
                   <img
@@ -110,10 +112,11 @@ function Services() {
                 </div>
                 <div className="md:w-[30vw] w-[95vw] h-[15vh] bg-[whitesmoke] flex items-center justify-between flex-col">
                   <div className="md:w-[25vw] w-[90vw] h-[8vh] absolute mt-[-8vh] bg-[whitesmoke] flex items-center justify-center font-bold text-[blue]">
-                    WED INSTRUCTOR
+                    Storytelling & Composition{" "}
                   </div>
                   <div className="font-medium text-[blue]">
-                    Best Way to Build Websites
+                    Creating animations that <br /> connect with the audience.{" "}
+                    <br /> and many more{" "}
                   </div>
                 </div>
               </div>

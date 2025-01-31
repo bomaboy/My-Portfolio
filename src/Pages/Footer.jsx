@@ -17,7 +17,7 @@ function Footer() {
              "
             >
               <p className="text-[white] text-[30px] font-bold">
-                About BomaTech
+                About Mr.Emmanuel Animations
               </p>
               <p className="text-[whitesmoke]">
                 Our passion for technology and our expertise in harnessing the
@@ -107,22 +107,25 @@ function Footer() {
                   </a>
                 </div>
               </div>
-              <div className="md:w-[50vw] w-[90vw] h-[10vh] flex items-center md:justify-around justify-between   ">
+              <div className="md:w-[50vw] w-[90vw] h-[10vh] flex sm:items-center items-start md:justify-around justify-between flex-col sm:flex-row   ">
                 <div className="md:w-[415px] w-[60vw] h-[10vh] flex md:items-center items-start justify-between  text-[whitesmoke] md:flex-row flex-col">
                   <div className="md:w-[250px] w-[60vw] h-[2.5vh] flex items-center  md:justify-around justify-start md:border-r-[1px] md:border-[gray] border-r-[0px] border-[transparent]">
-                    <p>@ Copyright BomaTech 2024 </p>
+                    <p>@ Copyright Mr.Emanuel Animations 2025 </p>
                   </div>
-                  <p className="md:w-[250px] w-[60vw] h-[2.5vh] flex items-center md:justify-around justify-start">
+                  <div className="md:w-[250px] w-[90vw] md:h-[2.5vh] h-[10vh] flex sm:items-center flex-col md:justify-around justify-center mt-10 sm:mt-0">
                     Designed by{" "}
-                    <span className="font-bold text-white hover:text-[gray] duration-500">
+                    {/* <span className="text-center font-bold text-white hover:text-[gray] duration-500 flex items-center justify-center ">
                       {" "}
-                      <a href="/">BomaTech</a>{" "}
-                    </span>
-                  </p>
+                      <br /> */}
+                      <a href="/">
+                        Mr.Emmanuel <br /> Animations
+                      </a>{" "}
+                    {/* </span> */}
+                  </div>
                 </div>
                 <a href="#Main">
-                  <div className="Arrow-div w-[50px] h-[50px] flex items-center justify-center bg-[transparent] hover:text-[gray] rounded-[50%] border-[white] hover:border-[gray] border-[1px] duration-500 ">
-                    <FaArrowUp className=" Arrow-Up text-[white]" />
+                  <div className="Arrow-div w-[50px] h-[50px] flex items-center justify-center bg-[transparent] hover:text-[gray] rounded-[50%] border-[white] hover:border-[gray] border-[1px] duration-500 ml-[40vh] md:ml-0 ">
+                    <FaArrowUp className="  Arrow-Up text-[white] " />
                   </div>
                 </a>
               </div>

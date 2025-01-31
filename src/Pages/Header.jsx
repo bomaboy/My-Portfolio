@@ -36,7 +36,7 @@ function Header() {
             to="/"
             className="font-bold hover:text-[blue] duration-500 text-xl w-[15vw]"
           >
-            BomaTech
+            Mr.Emmanuel Animations{" "}
           </Link>
           <div className=" hidden sm:flex w-[55vw] ">
             <ul className=" duration-500 text-[15px] font-bold  h-[10vh] w-[505px] md:w-[70vw] flex items-center justify-end ">

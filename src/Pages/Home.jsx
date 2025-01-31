@@ -15,10 +15,10 @@ function Home() {
         </div>
         <ReactTyped
           strings={[
-            "I'm a web Developer",
-            "I'm a web Designer",
-            "I'm a Digital Artist",
-            "I'm a web Instructor",
+            "I'm A 3D Artist",
+            "I'm A 3D Instructor",
+            "I'm A Web Developer",
+            "I'm A Web Instructor",
           ]}
           typeSpeed={50}
           backSpeed={70}
@@ -29,16 +29,16 @@ function Home() {
           <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
             <figure className="w-full">
               {/* <img src={Image2} alt="Image2" className="images h-[120vh]" /> */}
-              <div className="image1 h-[100vh]   w-[100vw]"></div>
+              <div className="image6 h-[100vh]   w-[100vw]"></div>
             </figure>
             <figure className="w-full">
-              <div className="image2 h-[100vh]   w-[100vw]"></div>
+              <div className="image7 h-[100vh]   w-[100vw]"></div>
             </figure>
             <figure className="w-full">
-              <div className="image3 h-[100vh]   w-[100vw]"></div>
+              <div className="image8 h-[100vh]   w-[100vw]"></div>
             </figure>
             <figure className="w-full">
-              <div className="image4 h-[100vh]   w-[100vw]"></div>
+              <div className="image9 h-[100vh]   w-[100vw]"></div>
             </figure>
           </Carousel>
         </section>

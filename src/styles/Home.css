@@ -1,45 +1,45 @@
-.image1 {
+.image6 {
   background: linear-gradient(
       90deg,
       rgba(17, 4, 199, 0.418) 0%,
 
       rgba(22, 8, 217, 0.418) 100%
     ),
-    url(../images/bg2.webp);
+    url(/images/3D_Img1.webp);
   background-size: cover;
 }
 
-.image2 {
+.image7 {
   background: linear-gradient(
       90deg,
       rgba(17, 4, 199, 0.418) 0%,
 
       rgba(22, 8, 217, 0.418) 100%
     ),
-    url(../images/bg3.jpg);
+    url(/images/3D_Img2.jpg);
   background-size: cover;
 }
 
-.image3 {
+.image8 {
   background: linear-gradient(
       90deg,
       rgba(17, 4, 199, 0.418) 0%,
 
       rgba(22, 8, 217, 0.418) 100%
     ),
-    url(../images/bg4.webp);
-
+    url(/images/3D_Img3.jpg);
   background-size: cover;
 }
 
-.image4 {
+.image9 {
   background: linear-gradient(
       90deg,
       rgba(17, 4, 199, 0.418) 0%,
 
       rgba(22, 8, 217, 0.418) 100%
     ),
-    url(../images/bg5.jpeg);
+    url(/images/3D_Img4.jpg);
+
   background-size: cover;
 }
 

@@ -40,16 +40,17 @@ function About() {
           </div>{" "}
           <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
             <figure className="w-full">
-              <div className="image1 h-[65vh] w-[100vw]"></div>
+              {/* <img src={Image2} alt="Image2" className="images h-[120vh]" /> */}
+              <div className="image6 h-[65vh]   w-[100vw]"></div>
             </figure>
             <figure className="w-full">
-              <div className="image2 h-[65vh] w-[100vw]"></div>
+              <div className="image7 h-[65vh]   w-[100vw]"></div>
             </figure>
             <figure className="w-full">
-              <div className="image3 h-[65vh] w-[100vw]"></div>
+              <div className="image8 h-[65vh]   w-[100vw]"></div>
             </figure>
             <figure className="w-full">
-              <div className="image4 h-[65vh] w-[100vw]"></div>
+              <div className="image9 h-[65vh]   w-[100vw]"></div>
             </figure>
           </Carousel>
         </section>
@@ -58,22 +59,29 @@ function About() {
             <div className="md:w-[40vw] w-[95vw]  h-[70vh] flex items-start justify-between flex-col text-[#2a1313]">
               <p className="font-extrabold md:text-[2.1vw] text-[5vw]">
                 {" "}
-                <span className="span">We</span> Live For your quality websites{" "}
+                <span className="span">We</span> Live For your quality Animation{" "}
               </p>
-              <p className="text-[18px] md:font-medium ">
-                "I specialize in crafting websites and mobile apps tailored to
-                elevate your business. <br /> <br />
-                Additionally, I am proficient in diverse forms of artistic
-                expression, ranging from digital to traditional mediums <br />{" "}
-                <br />
+              <p>
+                ✅ Film & TV – Creating animated movies, CGI effects, and
+                virtual sets.
               </p>
-              <p className="text-[18px] md:font-medium  ">
-                As a web instructor at{" "}
-                <abbr title="LearnFactory Nigeria, Aba, Abia State">LF</abbr>, I
-                empower my clients with the knowledge and skills to
-                independently create and manage their own websites."
+              <p>
+                ✅ Gaming Industry – Designing game characters, environments,
+                and cinematics.
               </p>
-              <a href="https://docs.google.com/document/d/1ck2Y17pg2Ko-wzeyk3PbptIb7Kgo2_YJsfns0CWq7p4/edit">
+              <p>
+                ✅ Advertising & Marketing – Producing animated commercials and
+                product visualizations.
+              </p>
+              <p>
+                ✅ VR & AR – Developing immersive 3D experiences for training,
+                simulation, and entertainment.
+              </p>
+              <p>
+                ✅ Architectural Visualization – Animating buildings and
+                landscapes for real estate and design.
+              </p>
+              <a href="https://drive.google.com/file/d/1zbd-Jw6rcPzUOlb2ZUWGGcCLx6l__2fI/view?usp=drive_link">
                 <button className="w-[150px] h-[50px] border-[blue] border-[2px] rounded-[30px] hover:bg-[blue] hover:text-[white] duration-500 font-medium ">
                   View CV
                 </button>
@@ -82,7 +90,7 @@ function About() {
             <a href="/">
               <div className="image5 md:w-[38vw] w-[95vw] h-[70vh] flex items-center justify-center font-extrabold md:text-white text-[blue] text-[30px]">
                 <div className="md:w-[38vw] w-[95vw] h-[70vh] md:hover:bg-[blue] absolute opacity-70 duration-500 md:mt-0 mt-[-3.5px]"></div>
-                <p className="hidden absolute "> BomaTech</p>
+                <p className="hidden absolute text-center">Mr.Emmanuel Animations</p>
                 <img
                   src={image5}
                   alt="image5"
@@ -101,10 +109,16 @@ function About() {
                   <CgWebsite />
                 </div>
                 <div className="md:w-[23vw] w-[75vw] h-[30vh] flex items-center justify-between flex-col">
-                  <p className="font-bold text-[18px]">High Quality Website</p>
+                  <p className="font-bold text-[18px]">
+                    {" "}
+                    Unique Artistic Vision & Style
+                  </p>
                   <h1>
-                    i build high quality websites that are free from any kind of
-                    bugs, my websites are standard and reliable
+                    Unlike generic animation services, I bring a distinct
+                    artistic touch to every project. Whether it’s character
+                    animation, VFX, or motion design, your creativity ensures
+                    visually striking and emotionally engaging animations that
+                    stand out from the rest.
                   </h1>
                 </div>
               </div>
@@ -113,11 +127,14 @@ function About() {
                   <FcIdea />
                 </div>
                 <div className="md:w-[23vw] w-[75vw] h-[30vh] flex items-center justify-between flex-col">
-                  <p className="font-bold text-[18px]">Aboundant Eperience</p>
+                  <p className="font-bold text-[18px]">
+                    High-Quality, Detail-Oriented Work
+                  </p>
                   <h1>
-                    i have been into this business of websites building for the
-                    past two years now, i have gained alot of experience and
-                    have seen alot of challengies and scalled through
+                    I focus on precision and storytelling, ensuring smooth
+                    animations, lifelike motion, and polished visuals. Every
+                    project is handled with top-tier industry techniques, making
+                    my work not just good, but exceptional.
                   </h1>
                 </div>
               </div>
@@ -126,11 +143,14 @@ function About() {
                   <SiApplearcade />
                 </div>
                 <div className="md:w-[23vw] w-[75vw] h-[30vh] flex items-center justify-between flex-col">
-                  <p className="font-bold text-[18px]">Modern Equipments</p>
+                  <p className="font-bold text-[18px]">
+                    Client-Centric & Reliable Service
+                  </p>
                   <h1>
-                    i use modern frameworks like react.js, vite and tailwindcss
-                    just to mention a few, i also use a very strong and reliable
-                    laptop as you can see on the image above
+                    I prioritize client satisfaction, clear communication, and
+                    on-time delivery. Unlike competitors who might rush
+                    projects, I take the time to understand the client’s vision
+                    and bring it to life with professionalism and dedication.
                   </h1>
                 </div>
               </div>
@@ -142,78 +162,38 @@ function About() {
             <p className="font-bold text-[30px]">skills</p>
             <div className="w-[95vw] h-[40vh] flex items-center justify-between">
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p>HTML</p>
-                <div
-                  href="http://"
-                  className="font-medium text-[30px] hover:text-[blue] duration-500"
-                >
-                  <ImHtmlFive />
-                </div>
+                <p className="hidden sm:flex"> 3D Modeling</p>
+                <div className="Image10 w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p>CSS</p>
-                <div
-                  href="http://"
-                  className="font-medium text-[30px] hover:text-[blue] duration-500"
-                >
-                  <SiCss3 />
-                </div>
+                <p className="hidden sm:flex">Texturing & UV Mapping</p>
+                <div className="Image11 w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p>JavaScript</p>
-                <div
-                  href="http://"
-                  className="font-medium text-[30px] hover:text-[blue] duration-500"
-                >
-                  <TbBrandJavascript />
-                </div>
+                <p className="hidden sm:flex">Rigging & Skinning</p>
+                <div className="Image12 w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p>Tailwind</p>
-                <div
-                  href="http://"
-                  className="font-medium text-[30px] hover:text-[blue] duration-500"
-                >
-                  <SiTailwindcss />
-                </div>
+                <p className="hidden sm:flex">Animation</p>
+                <div className="Image13 w-[10vw] h-[15vh]"></div>{" "}
               </div>
             </div>
             <div className="w-[95vw] h-[40vh] flex items-center justify-between">
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p>GitHub</p>
-                <div
-                  href="http://"
-                  className="font-medium text-[30px] hover:text-[blue] duration-500"
-                >
-                  <VscGithubInverted />
-                </div>
+                <p className="hidden sm:flex"> Lighting & Rendering </p>
+                <div className="Image14 w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p>React.js</p>
-                <div
-                  href="http://"
-                  className="font-medium text-[30px] hover:text-[blue] duration-500"
-                >
-                  <SiReact />
-                </div>
+                <p className="hidden sm:flex"> Real-Time Rendering</p>
+                <div className="Image15 w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p>Figma</p>
-                <div
-                  href="http://"
-                  className="font-medium text-[30px] hover:text-[blue] duration-500"
-                >
-                  <FaFigma />
-                </div>
+                <p className="hidden sm:flex">Storytelling & Composition </p>
+                <div className="Image16 w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p>Art Work</p>
-                <div
-                  href="http://"
-                  className="font-medium text-[30px] hover:text-[blue] duration-500"
-                >
-                  <HiPaintBrush />
-                </div>
+                <p className="hidden sm:flex">Problem-Solving & Adaptability</p>
+                <div className="Image17 w-[10vw] h-[15vh]"></div>{" "}
               </div>
             </div>
           </div>
