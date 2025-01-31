@@ -5,7 +5,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Services from "./Pages/Services";
 import Projects from "./Pages/Projects";
-import Main from "./Pages/main.jsx";
+import Main from "./Pages/Main.jsx";
 
 function App() {
   return (
