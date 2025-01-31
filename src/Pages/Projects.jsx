@@ -2,7 +2,7 @@ import "../styles/Projects.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { IoHomeOutline } from "react-icons/io5";
-import { IoIosArrowForward } from "react-icons/io5";
+import { IoIosArrowForward } from "react-icons/io";
 import { FaBook } from "react-icons/fa";
 import videoFile1 from "/images/Realistic_Water_Animation.mp4";
 import videoFile2 from "/images/Champions_League_Animation.mp4";
