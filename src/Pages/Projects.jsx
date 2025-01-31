@@ -4,12 +4,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaBook } from "react-icons/fa";
-import img1 from "../images/Project-image.png";
-import img2 from "../images/Project-clock.png";
-import img3 from "../images/Project-Quize.png";
-import img4 from "../images/Project-calculator.png";
-import img5 from "../images/Project-responsive-facebook.png";
-import img6 from "../images/Project-Book-Lab.png";
+import img1 from "/images/Project-image.png";
+import img2 from "/images/Project-clock.png";
+import img3 from "/images/Project-Quize.png";
+import img4 from "/images/Project-calculator.png";
+import img5 from "/images/Project-responsive-facebook.png";
+import img6 from "/images/Project-Book-Lab.png";
 
 function Projects() {
   return (

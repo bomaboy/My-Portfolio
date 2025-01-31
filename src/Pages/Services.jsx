@@ -4,9 +4,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaBook } from "react-icons/fa";
-import img1 from "../images/bg1.webp";
-import img2 from "../images/bg4.webp";
-import img3 from "../images/bg5.jpeg";
+import img1 from "/images/bg1.webp";
+import img2 from "/images/bg4.webp";
+import img3 from "/images/bg5.jpeg";
 
 function Services() {
   return (

@@ -2,7 +2,7 @@ import "../styles/About.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import { ReactTyped } from "react-typed";
-import image5 from "../images/About-image.png";
+import image5 from "/images/About-image.png";
 import { CgWebsite } from "react-icons/cg";
 import { FcIdea } from "react-icons/fc";
 import { SiApplearcade } from "react-icons/si";
