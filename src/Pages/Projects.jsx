@@ -57,7 +57,7 @@ function Projects() {
               <FaBook className="font-extrabold text-[blue] text-[30px]" />
             </div>
             <h1 className=" font-extrabold text-[blue] text-left">
-              <span className="text-3xl">Wed development projects?</span> I
+              <span className="text-3xl">Web development projects?</span> I
               Created this Website and other projects, this particular portfolio
               is dedicated to 3D animation <br />
               Enjoy the videos below
