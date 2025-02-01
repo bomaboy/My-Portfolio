@@ -117,14 +117,14 @@ function Footer() {
                     {/* <span className="text-center font-bold text-white hover:text-[gray] duration-500 flex items-center justify-center ">
                       {" "}
                       <br /> */}
-                      <a href="/">
-                        Mr.Emmanuel <br /> Animations
-                      </a>{" "}
+                    <a href="/">
+                      Mr.Emmanuel <br /> Animations
+                    </a>{" "}
                     {/* </span> */}
                   </div>
                 </div>
                 <a href="#Main">
-                  <div className="Arrow-div w-[50px] h-[50px] flex items-center justify-center bg-[transparent] hover:text-[gray] rounded-[50%] border-[white] hover:border-[gray] border-[1px] duration-500 ml-[40vh] md:ml-0 ">
+                  <div className="Arrow-div w-[50px] h-[50px] flex items-center justify-center bg-[transparent] hover:text-[gray] rounded-[50%] border-[white] hover:border-[gray] border-[1px] duration-500 ml-[35vh] md:ml-0 ">
                     <FaArrowUp className="  Arrow-Up text-[white] " />
                   </div>
                 </a>

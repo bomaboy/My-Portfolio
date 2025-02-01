@@ -1,21 +1,12 @@
 import "../styles/About.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import { ReactTyped } from "react-typed";
 import image5 from "/images/About-image.png";
 import { CgWebsite } from "react-icons/cg";
 import { FcIdea } from "react-icons/fc";
 import { SiApplearcade } from "react-icons/si";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
-// import { ImHtmlFive } from "react-icons/im";
-// import { SiCss3 } from "react-icons/si";
-// import { TbBrandJavascript } from "react-icons/tb";
-// import { SiTailwindcss } from "react-icons/si";
-// import { VscGithubInverted } from "react-icons/vsc";
-// import { SiReact } from "react-icons/si";
-// import { HiPaintBrush } from "react-icons/hi2";
-// import { FaFigma } from "react-icons/fa";
 
 function About() {
   return (
@@ -165,37 +156,37 @@ function About() {
             <div className="w-[95vw] h-[40vh] flex items-center justify-between">
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
                 <p className="hidden sm:flex"> 3D Modeling</p>
-                <div className="Image10 w-[10vw] h-[15vh]"></div>{" "}
+                <div className="Image10 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
                 <p className="hidden sm:flex">Texturing & UV Mapping</p>
-                <div className="Image11 w-[10vw] h-[15vh]"></div>{" "}
+                <div className="Image11 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
                 <p className="hidden sm:flex">Rigging & Skinning</p>
-                <div className="Image12 w-[10vw] h-[15vh]"></div>{" "}
+                <div className="Image12 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
                 <p className="hidden sm:flex">Animation</p>
-                <div className="Image13 w-[10vw] h-[15vh]"></div>{" "}
+                <div className="Image13 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
               </div>
             </div>
             <div className="w-[95vw] h-[40vh] flex items-center justify-between">
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
                 <p className="hidden sm:flex"> Lighting & Rendering </p>
-                <div className="Image14 w-[10vw] h-[15vh]"></div>{" "}
+                <div className="Image14 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
                 <p className="hidden sm:flex"> Real-Time Rendering</p>
-                <div className="Image15 w-[10vw] h-[15vh]"></div>{" "}
+                <div className="Image15 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
                 <p className="hidden sm:flex">Storytelling & Composition </p>
-                <div className="Image16 w-[10vw] h-[15vh]"></div>{" "}
+                <div className="Image16 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
                 <p className="hidden sm:flex">Problem-Solving & Adaptability</p>
-                <div className="Image17 w-[10vw] h-[15vh]"></div>{" "}
+                <div className="Image17 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
               </div>
             </div>
           </div>
