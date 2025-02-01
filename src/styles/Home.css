@@ -6,7 +6,6 @@
       rgba(22, 8, 217, 0.418) 100%
     ),
     url(/images/3D_Img1.webp);
-  background-size: cover;
 }
 
 .image7 {
@@ -17,7 +16,6 @@
       rgba(22, 8, 217, 0.418) 100%
     ),
     url(/images/3D_Img2.jpg);
-  background-size: cover;
 }
 
 .image8 {
@@ -28,7 +26,6 @@
       rgba(22, 8, 217, 0.418) 100%
     ),
     url(/images/3D_Img3.jpg);
-  background-size: cover;
 }
 
 .image9 {
@@ -39,8 +36,6 @@
       rgba(22, 8, 217, 0.418) 100%
     ),
     url(/images/3D_Img4.jpg);
-
-  background-size: cover;
 }
 
 .drop {
