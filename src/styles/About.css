@@ -39,27 +39,43 @@
 }
 .Image10 {
   background-image: url(/images/3D_Modeling.jpeg);
+
+  background-size: cover;
 }
 .Image11 {
   background-image: url(/images/3D_Texturing&Mapping.jpg);
+
+  background-size: cover;
 }
 .Image12 {
   background-image: url(/images/3D_Rigging\ &\ Skinning.png);
+
+  background-size: cover;
 }
 .Image13 {
   background-image: url(/images/3D_Animating.jpg);
+
+  background-size: cover;
 }
 .Image14 {
   background-image: url(/images/3D_Lighting\ &\ Rendering.jpg);
+
+  background-size: cover;
 }
 .Image15 {
   background-image: url(/images/3D_Real_Time_Rendering.webp);
+
+  background-size: cover;
 }
 .Image16 {
   background-image: url(/images/3D_Storytelling\ &\ Composition.jpg);
+
+  background-size: cover;
 }
 .Image17 {
   background-image: url(/images/3D_Problem-Solving\ &\ Adaptability.jpg);
+
+  background-size: cover;
 }
 
 /* .image5 {
@@ -71,6 +87,7 @@
     ),
     url(../images/hands-up.webp);
 
+  background-size: cover;
   transition: 50s;
 } */
 
