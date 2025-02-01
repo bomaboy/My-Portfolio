@@ -32,16 +32,16 @@ function Services() {
           <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
             <figure className="w-full">
               {/* <img src={Image2} alt="Image2" className="images h-[120vh]" /> */}
-              <div className="image6 h-[65vh]   w-[100vw]"></div>
+              <div className="image6 h-[65vh]   w-[100vw] sm:bg-cover bg-contain"></div>
             </figure>
             <figure className="w-full">
-              <div className="image7 h-[65vh]   w-[100vw]"></div>
+              <div className="image7 h-[65vh]   w-[100vw] sm:bg-cover bg-contain"></div>
             </figure>
             <figure className="w-full">
-              <div className="image8 h-[65vh]   w-[100vw]"></div>
+              <div className="image8 h-[65vh]   w-[100vw] sm:bg-cover bg-contain"></div>
             </figure>
             <figure className="w-full">
-              <div className="image9 h-[65vh]   w-[100vw]"></div>
+              <div className="image9 h-[65vh]   w-[100vw] sm:bg-cover bg-contain"></div>
             </figure>
           </Carousel>
         </section>{" "}
