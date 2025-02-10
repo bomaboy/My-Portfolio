@@ -177,7 +177,10 @@ function About() {
                 <div className="Image14 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p className="hidden sm:flex"> Real-Time Rendering</p>
+                <p className="hidden sm:flex text-center">
+                  physics simulations <br />
+                  (cloth, fire, water, smoke).
+                </p>
                 <div className="Image15 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
               </div>
               <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
