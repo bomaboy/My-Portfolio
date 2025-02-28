@@ -7,9 +7,9 @@ import { FaBook } from "react-icons/fa";
 import videoFile1 from "/images/Realistic_Water_Animation.mp4";
 import videoFile2 from "/images/Champions_League_Animation.mp4";
 import videoFile3 from "/images/Animated_Portfolio.mp4";
-import videoFile4 from "/images/Mushroom_Character_Animation.mp4";
+import videoFile4 from "/images/City_Largest_Supermarket.mp4";
 import videoFile5 from "/images/Warner_Bros_Intro_Animation.mp4";
-import videoFile6 from "/images/City_Largest_Supermarket.mp4";
+import videoFile6 from "/images/Car_Animation_2.mp4";
 
 function Projects() {
   return (
