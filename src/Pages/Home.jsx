@@ -9,9 +9,9 @@ function Home() {
     <>
       <Header />
       <main className="w-[100vw] h-[100vh]">
-        <div className="drop md:w-[100vw] w-[100vw] h-10 absolute text-[white] font-extrabold md:text-[82px] sm:text-[50px] text-[40px] z-10  md:mt-[-10vh] mt-[10vh] pr-5 text-center font-serif ">
+        <div className="drop md:w-[100vw] w-[100vw] h-10 absolute text-[white] font-extrabold md:text-[82px] sm:text-[50px] text-[35px] z-10  md:mt-[-10vh] mt-[10vh] pr-5 text-center font-serif ">
           <p>Hello</p>
-          <p>I'm Emmanuel</p>
+          <p>I'm Mr. Emmanuel</p>
         </div>
         <ReactTyped
           strings={[

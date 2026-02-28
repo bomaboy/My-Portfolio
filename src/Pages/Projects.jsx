@@ -11,7 +11,7 @@ function Projects() {
     <>
       <main
         id="Main"
-        className="w-[100vw] md:h-[240vh] h-[300vh] bg-[whitesmoke]  font-serif"
+        className="w-[100vw] md:h-[240vh] h-[350vh] bg-[whitesmoke]  font-serif"
       >
         <section className=" md:h-[65vh] overflow-x-hidden">
           <div className="z-20 absolute md:mt-[40vh]  mt-[30vh] md:ml-[40vw] sm:ml-[35vw] ml-[27vw] text-[white]  border-none outline-none flex items-center justify-center flex-col">

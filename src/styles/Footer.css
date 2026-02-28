@@ -7,5 +7,14 @@
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url(/images/My_Logo.png);
   background-size: cover;
-  color: red;
+}
+
+@media screen and (max-width: 450px) {
+  .Footer {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url(/images/My_Logo.png);
+    background-size: contain;
+    overflow: hidden;
+  }
 }

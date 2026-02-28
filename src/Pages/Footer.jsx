@@ -9,11 +9,11 @@ import { FaArrowUp } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <footer className=" Footer w-[100vw] md:h-[90vh] h-[150vh] overflow-x-hidden  flex items-center justify-center">
+      <footer className=" Footer w-[100vw] md:h-[90vh] h-[160vh] overflow-x-hidden  flex items-center justify-center">
         <div className="w-[90vw] md:h-[70vh] h-[130vh] flex items-center justify-between  flex-col  ">
           <div className="w-[90vw] md:h-[70vh] h-[130vh] flex md:items-center items-start justify-between  md:flex-wrap flex-nowrap md:flex-row flex-col  ">
             <div
-              className="md:w-[600px] w-[80vw] md:h-[25vh] h-[30vh] flex items-start justify-between flex-col 
+              className=" md:w-[600px] w-[80vw] md:h-[25vh] h-[50vh] flex items-start justify-between flex-col 
              "
             >
               <p className="text-[white] text-[30px] font-bold">
