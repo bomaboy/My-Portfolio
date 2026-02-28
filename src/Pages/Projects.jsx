@@ -4,12 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaBook } from "react-icons/fa";
-import videoFile1 from "/images/Realistic_Water_Animation.mp4";
-import videoFile2 from "/images/Champions_League_Animation.mp4";
-import videoFile3 from "/images/Animated_Portfolio.mp4";
-import videoFile4 from "/images/City_Largest_Supermarket.mp4";
-import videoFile5 from "/images/Warner_Bros_Intro_Animation.mp4";
-import videoFile6 from "/images/Car_Animation_2.mp4";
+
 
 function Projects() {
   return (
@@ -34,7 +29,6 @@ function Projects() {
           </div>{" "}
           <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
             <figure className="w-full">
-              {/* <img src={Image2} alt="Image2" className="images h-[120vh]" /> */}
               <div className="image6 h-[65vh]   w-[100vw] sm:bg-cover bg-contain"></div>
             </figure>
             <figure className="w-full">
@@ -56,14 +50,7 @@ function Projects() {
               </p>
               <FaBook className="font-extrabold text-[blue] text-[30px]" />
             </div>
-            <h1 className=" font-extrabold text-[blue] text-left">
-              <span className="text-3xl">Web development projects?</span> I
-              Created this Website and other projects, this particular portfolio
-              is dedicated to 3D animation <br />
-              Enjoy the videos below
-              <br />
-              Always working on new once <br /> stay turned
-            </h1>
+         
             {/* <div className="w-[95vw] sm:h-[100vh] h-[200vh] flex items-center justify-between flex-col border-[red] border-[5px]"> */}
             <div className="w-[95vw] md:h-[75vh] h-[90vh] flex items-center justify-between md:flex-row flex-col md:mb-0  md:mt-0 mt-10">
               {/* <a
@@ -74,7 +61,10 @@ function Projects() {
                 controls
                 className="service shadow-lg md:w-[30vw] w-[95vw] h-[65vh] flex items-center justify-between flex-col md:mb-0 mb-10"
               >
-                <source src={videoFile1} type="video/mp4" />
+                <source
+                  src="https://res.cloudinary.com/dpc90wvct/video/upload/v1772262056/Doctor_Modeling_Vid_drhtdo.mp4"
+                  type="video/mp4"
+                />
 
                 <div className="hover:bg-[blue] md:w-[30vw] w-[95vw] h-[50vh] absolute duration-500 opacity-60"></div>
                 <p className="service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
@@ -99,7 +89,10 @@ function Projects() {
                 controls
                 className="service shadow-lg md:w-[30vw] w-[95vw] h-[65vh] flex items-center justify-between flex-col md:mb-0 mb-10"
               >
-                <source src={videoFile2} type="video/mp4" />
+                <source
+                  src="https://res.cloudinary.com/dpc90wvct/video/upload/v1772261973/Rigging_My_Female_Character_uzu2py.mp4"
+                  type="video/mp4"
+                />
 
                 <div className="hover:bg-[blue] md:w-[30vw] w-[95vw] h-[50vh] absolute duration-500 opacity-60"></div>
                 <p className="service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
@@ -124,7 +117,10 @@ function Projects() {
                 controls
                 className="service shadow-lg md:w-[30vw] w-[95vw] h-[65vh] flex items-center justify-between flex-col md:mb-0 mb-10"
               >
-                <source src={videoFile3} type="video/mp4" />
+                <source
+                  src="https://res.cloudinary.com/dpc90wvct/video/upload/v1772261954/City_Animation_lfdsvv.mp4"
+                  type="video/mp4"
+                />
 
                 <div className="hover:bg-[blue] md:w-[30vw] w-[95vw] h-[50vh] absolute duration-500 opacity-60"></div>
                 <p className="service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
@@ -151,7 +147,10 @@ function Projects() {
                 controls
                 className="service shadow-lg md:w-[30vw] w-[95vw] h-[65vh] flex items-center justify-between flex-col md:mb-0 mb-10"
               >
-                <source src={videoFile4} type="video/mp4" />
+                <source
+                  src="https://res.cloudinary.com/dpc90wvct/video/upload/v1772261925/Fastest_Man_Without_Legs_gonb6i.mp4"
+                  type="video/mp4"
+                />
 
                 <div className="hover:bg-[blue] md:w-[30vw] w-[95vw] h-[50vh] absolute duration-500 opacity-60"></div>
                 <p className="service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
@@ -176,7 +175,10 @@ function Projects() {
                 controls
                 className="service shadow-lg md:w-[30vw] w-[95vw] h-[65vh] flex items-center justify-between flex-col md:mb-0 mb-10"
               >
-                <source src={videoFile5} type="video/mp4" />
+                <source
+                  src="https://res.cloudinary.com/dpc90wvct/video/upload/v1772261903/0001-1376_xpnnhk.mp4"
+                  type="video/mp4"
+                />
 
                 <div className="hover:bg-[blue] md:w-[30vw] w-[95vw] h-[50vh] absolute duration-500 opacity-60"></div>
                 <p className="service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">
@@ -201,7 +203,10 @@ function Projects() {
                 controls
                 className="service shadow-lg md:w-[30vw] w-[95vw] h-[65vh] flex items-center justify-between flex-col md:mb-0 mb-10"
               >
-                <source src={videoFile6} type="video/mp4" />
+                <source
+                  src="https://res.cloudinary.com/dpc90wvct/video/upload/v1772261893/Agent_Wolf_xpn1sa.mp4"
+                  type="video/mp4"
+                />
 
                 <div className="hover:bg-[blue] md:w-[30vw] w-[95vw] h-[50vh] absolute duration-500 opacity-60"></div>
                 <p className="service-p absolute mt-[20vh] font-bold text-[30px] text-[whitesmoke] hidden">

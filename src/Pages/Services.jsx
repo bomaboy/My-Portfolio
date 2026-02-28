@@ -4,17 +4,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaBook } from "react-icons/fa";
-import img1 from "/images/bg1.webp";
-import img2 from "/images/bg4.webp";
-import img3 from "/images/bg5.jpeg";
+import img1 from "/images/Screenshot.png";
+import img2 from "/images/3D_Rigging & Skinning.png";
+import img3 from "/images/3D_Storytelling & Composition.jpg";
 
 function Services() {
   return (
     <>
-      <main
-        id="Main"
-        className="w-[100vw] md:h-[170vh] h-[300vh] font-serif bg-[whitesmoke]"
-      >
+      <main id="Main" className=" font-serif bg-[whitesmoke]">
         <section className=" md:h-[65vh] overflow-x-hidden">
           <div className="z-20 absolute md:mt-[40vh]  mt-[30vh] md:ml-[40vw] sm:ml-[35vw] ml-[27vw] text-[white]  border-none outline-none flex items-center justify-center flex-col">
             <h1 className="font-bold text-[35px]">Our Services</h1>

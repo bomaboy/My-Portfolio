@@ -7,14 +7,12 @@ import { FcIdea } from "react-icons/fc";
 import { SiApplearcade } from "react-icons/si";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
+import Skills from "./Skills";
 
 function About() {
   return (
     <>
-      <main
-        id="Main"
-        className="w-screen h-[500vh] md:h-[320vh] z-10 font-serif bg-[whitesmoke]"
-      >
+      <main id="Main" className=" z-10 font-serif bg-[whitesmoke]">
         <section className=" md:h-[65vh] w-screen">
           <div className="z-20 absolute md:mt-[40vh]  mt-[30vh] md:ml-[40vw] sm:ml-[35vw] ml-[27vw] text-[white]  border-none outline-none flex items-center justify-center flex-col">
             <h1 className="font-bold text-[35px]">About Us</h1>
@@ -50,7 +48,8 @@ function About() {
             <div className="md:w-[40vw] w-[95vw]  h-[70vh] flex items-start justify-between flex-col text-[#2a1313]">
               <p className="font-extrabold md:text-[2.1vw] text-[5vw]">
                 {" "}
-                <span className="span">We</span> Live For your quality Animation{" "}
+                <span className="span">We</span> Live For your quality
+                Animation{" "}
               </p>
               <p>
                 ✅ Film & TV – Creating animated movies, CGI effects, and
@@ -150,49 +149,8 @@ function About() {
             </div>
           </div>
         </section>
-        <section className="w-[100vw] h-[50vh] flex items-center justify-center ">
-          <div className="w-[95vw] h-[45vh] flex items-center justify-between flex-col ">
-            <p className="font-bold text-[30px]">skills</p>
-            <div className="w-[95vw] h-[40vh] flex items-center justify-between">
-              <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p className="hidden sm:flex"> 3D Modeling</p>
-                <div className="Image10 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
-              </div>
-              <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p className="hidden sm:flex">Texturing & UV Mapping</p>
-                <div className="Image11 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
-              </div>
-              <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p className="hidden sm:flex">Rigging & Skinning</p>
-                <div className="Image12 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
-              </div>
-              <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p className="hidden sm:flex">Animation</p>
-                <div className="Image13 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
-              </div>
-            </div>
-            <div className="w-[95vw] h-[40vh] flex items-center justify-between">
-              <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p className="hidden sm:flex"> Lighting & Rendering </p>
-                <div className="Image14 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
-              </div>
-              <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p className="hidden sm:flex text-center">
-                  physics simulations <br />
-                  (cloth, fire, water, smoke).
-                </p>
-                <div className="Image15 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
-              </div>
-              <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p className="hidden sm:flex">Storytelling & Composition </p>
-                <div className="Image16 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
-              </div>
-              <div className="md:w-[30vw] w-[95vw] flex md:items-center items-center justify-between flex-col">
-                <p className="hidden sm:flex">Problem-Solving & Adaptability</p>
-                <div className="Image17 w-[20vw] sm:w-[10vw] h-[15vh]"></div>{" "}
-              </div>
-            </div>
-          </div>
+        <section>
+          <Skills />
         </section>
       </main>
     </>

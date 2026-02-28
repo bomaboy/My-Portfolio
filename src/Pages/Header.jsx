@@ -29,7 +29,7 @@ function Header() {
   return (
     <>
       <header
-        className={`${stickyHeader} navbar bg-[transparent] text-[white] h-[10vh]  w-screen fixed flex items-center justify-center z-30  shadow-lg font-serif`}
+        className={`${stickyHeader} navbar bg-[transparent] text-[white] h-[10vh]  w-screen fixed flex items-center justify-center z-30  shadow-lg font-serif border-[white] border-b-[1px]`}
       >
         <div className="w-[95vw] h-[10vh] flex items-center md:justify-between sm:justify-around justify-between">
           <Link

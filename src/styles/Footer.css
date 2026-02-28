@@ -1,3 +1,9 @@
 .Arrow-div:hover .Arrow-Up {
   color: gray;
 }
+
+.Footer {
+  background:url(/images/My_Logo.png);
+  background-size: cover;
+  color: red;
+}

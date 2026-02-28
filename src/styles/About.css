@@ -1,5 +1,6 @@
 .image6 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       90deg,
       rgba(17, 4, 199, 0.418) 0%,
 
@@ -9,7 +10,8 @@
 }
 
 .image7 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       90deg,
       rgba(17, 4, 199, 0.418) 0%,
 
@@ -19,7 +21,8 @@
 }
 
 .image8 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       90deg,
       rgba(17, 4, 199, 0.418) 0%,
 
@@ -29,7 +32,8 @@
 }
 
 .image9 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       90deg,
       rgba(17, 4, 199, 0.418) 0%,
 
@@ -53,7 +57,7 @@
   background-size: cover;
 }
 .Image13 {
-  background-image: url(/images/3D_Animating.jpg);
+  background-image: url(/images/3D_Real_Time_Rendering.webp);
 
   background-size: cover;
 }
@@ -63,9 +67,10 @@
   background-size: cover;
 }
 .Image15 {
-  background-image: url(/images/Simulation_Image.jpg);
+  background-image: url(/images/3D_Img2.jpg);
 
-  background-size: cover;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 .Image16 {
   background-image: url(/images/3D_Storytelling\ &\ Composition.jpg);
