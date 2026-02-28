@@ -5,13 +5,12 @@ import { IoHomeOutline } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaBook } from "react-icons/fa";
 
-
 function Projects() {
   return (
     <>
       <main
         id="Main"
-        className="w-[100vw] md:h-[240vh] h-[350vh] bg-[whitesmoke]  font-serif"
+        className="w-[100vw] md:h-[240vh] h-[420vh] bg-[whitesmoke]  font-serif"
       >
         <section className=" md:h-[65vh] overflow-x-hidden">
           <div className="z-20 absolute md:mt-[40vh]  mt-[30vh] md:ml-[40vw] sm:ml-[35vw] ml-[27vw] text-[white]  border-none outline-none flex items-center justify-center flex-col">
@@ -42,17 +41,17 @@ function Projects() {
             </figure>
           </Carousel>
         </section>
-        <section className="w-[100vw] md:h-[110vh] h-[200vh] flex items-center justify-center bg-[whitesmoke] md:mt-0 mt-10  ">
-          <div className="w-[95vw] md:h-[95vh] h-[190vh] flex items-center justify-between flex-col">
+        <section className=" w-[100vw] md:h-[110vh] h-[340vh] flex items-center justify-center bg-[whitesmoke] md:mt-0 mt-10  ">
+          <div className=" w-[95vw] md:h-[95vh] h-[300vh] flex items-center justify-center md:justify-between flex-col">
             <div className="w-[95vw] h-[15vh] border-b-[blue] border-b-[1px] border-dashed flex items-center justify-between">
               <p className="font-extrabold text-[blue] text-[30px]">
                 My Projects.
               </p>
               <FaBook className="font-extrabold text-[blue] text-[30px]" />
             </div>
-         
+
             {/* <div className="w-[95vw] sm:h-[100vh] h-[200vh] flex items-center justify-between flex-col border-[red] border-[5px]"> */}
-            <div className="w-[95vw] md:h-[75vh] h-[90vh] flex items-center justify-between md:flex-row flex-col md:mb-0  md:mt-0 mt-10">
+            <div className="w-[95vw] md:h-[75vh] h-[160vh] flex items-center justify-between md:flex-row flex-col md:mb-0  md:mt-0 mt-10">
               {/* <a
                   href="https://bomaboy.github.io/project_image/"
                  
@@ -138,7 +137,7 @@ function Projects() {
               </video>
               {/* </a> */}
             </div>
-            <div className="w-[95vw] md:h-[75vh] h-[90vh] flex items-center justify-between md:flex-row flex-col md:mt-0 mt-10">
+            <div className="w-[95vw] md:h-[75vh] h-[160vh] flex items-center justify-between md:flex-row flex-col md:mt-0 mt-10">
               {/* <a
                   href="https://bomaboy.github.io/project_image/"
                  
