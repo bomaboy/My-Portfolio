@@ -37,6 +37,188 @@
     ),
     url(/images/3D_Img4.jpg);
 }
+.image10 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/One.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+
+.image11 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/0ne.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+
+.image12 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/two.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+
+.image13 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/three.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+.image14 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/four.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+
+.image15 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/five.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+
+.image16 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/six.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+
+.image17 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/seven.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+.image18 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/eight.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+.image19 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/nine.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+.image20 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/ten.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+.image21 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/eleven.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+.image22 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/twelve.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+.image23 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/thirteen.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+.image24 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/fourteen.png);
+     background-repeat: no-repeat;
+   background-position: center;
+}
+.image25 {
+  background: linear-gradient(
+      90deg,
+      rgba(17, 4, 199, 0.418) 0%,
+
+      rgba(22, 8, 217, 0.418) 100%
+    ),
+    url(/images/fiveteen.png);
+    background-repeat: no-repeat;
+   background-position: center;
+}
 
 .drop {
   animation: drop 3s linear forwards reverse;

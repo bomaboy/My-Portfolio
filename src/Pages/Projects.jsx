@@ -10,7 +10,7 @@ function Projects() {
     <>
       <main
         id="Main"
-        className="w-[100vw] md:h-[240vh] h-[420vh] bg-[whitesmoke]  font-serif"
+        className="w-[100vw] md:h-[330vh] h-[490vh] bg-[whitesmoke]  font-serif"
       >
         <section className=" md:h-[65vh] overflow-x-hidden">
           <div className="z-20 absolute md:mt-[40vh]  mt-[30vh] md:ml-[40vw] sm:ml-[35vw] ml-[27vw] text-[white]  border-none outline-none flex items-center justify-center flex-col">
@@ -225,6 +225,63 @@ function Projects() {
             </div>
             {/* </div> */}
           </div>
+        </section>
+
+        <section className=" md:mt-[40vh] mt-[0vh] ">
+          <div className="w-[95vw] h-[15vh] border-b-[blue] border-b-[1px] border-dashed flex items-center justify-between">
+            <p className="font-extrabold text-[blue] text-[30px]">My Models.</p>
+            <FaBook className="font-extrabold text-[blue] text-[30px]" />
+          </div>
+          <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
+            <figure className="w-full">
+              <div className="image10 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image11 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image12 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image13 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image14 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image15 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image16 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image17 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image18 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image19 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image20 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image21 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image22 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image23 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image24 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+            <figure className="w-full">
+              <div className="image25 md:h-[90vh] h-[50vh]   w-[100vw] md:bg-contain  bg-contain "></div>
+            </figure>
+          </Carousel>
         </section>
       </main>
     </>
